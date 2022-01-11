@@ -416,14 +416,6 @@ svg:hover use {
   margin-bottom: 1rem;
 }
 
-.footer__a {
-  transition: font 350ms ease-in-out;
-}
-
-.footer__a:hover {
-  font-weight: var(--open-sans-bold);
-}
-
 .footer__icon-location {
   height: 1.55rem;
 }
@@ -440,13 +432,14 @@ svg:hover use {
 }
 
 .footer__items, .footer__a {
-  transition: all 0.35s ease-in-out;
-  padding: 0.3rem;
+  color: rgb(219, 217, 217);
+  transition: color 0.35s ease-in-out;
+  padding: 0.5rem;
   cursor: pointer;
 }
 
 .footer__items:hover, .footer__a:hover {
-  font-weight: var(--open-sans-bold); 
+  color: var(--white); 
 }
 
 .footer__icons {
